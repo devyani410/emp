@@ -1,0 +1,7 @@
+com/empManagement/empAssignement/controller/DepartmentControllerTest.class
+com/empManagement/empAssignement/controller/ProjectControllerTest.class
+com/empManagement/empAssignement/controller/EmployeeControllerTest.class
+com/empManagement/empAssignement/Services/DeptServicesTest.class
+com/empManagement/empAssignement/Services/ProjectServicesTest.class
+com/empManagement/empAssignement/EmpAssignementApplicationTests.class
+com/empManagement/empAssignement/Services/EmployeeServiceTest.class
