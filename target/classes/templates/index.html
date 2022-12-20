@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Employee Information</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
@@ -47,6 +48,9 @@
    <h1>
        WELCOME TO MY SPRING_BOOT APPLICATION
    </h1>
+
+
+    <h1 th:text="${name}" style="color:black"> lllll</h1>
 </div>
 
 <div class="row mt-4 container-fluid">
@@ -56,7 +60,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="http://localhost:8080/swagger-ui/" class="btn btn-warning">View My Api</a>
+              <a href="http://localhost:8088/swagger-ui/" class="btn btn-warning">View My Api</a>
             </div>
           </div>
     </div>

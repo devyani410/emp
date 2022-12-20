@@ -12,7 +12,7 @@ import org.springframework.util.Assert;
 import java.util.List;
 
 @SpringBootTest
-class EmpAssignementApplicationTests {
+class cEmpAssignementApplicationTests {
     @Autowired
 	public DeptServices deptServices;
 
